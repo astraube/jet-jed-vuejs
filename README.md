@@ -21,7 +21,8 @@
 ``` bash
 # clone this repo
 
-# cd JetJedi_vuejs
+# enter in folder
+cd JetJedi_vuejs
 
 # install dependencies
 npm install
