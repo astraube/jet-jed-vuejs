@@ -12,13 +12,13 @@
 
 
 ## Screens
-[![](https://vueschool.s3.amazonaws.com/07e696bc3ed3884dd88d82db76e69d89/vuex-for-everyone.jpeg)](https://vueschool.io/courses/vuex-for-everyone)
+[![](https://vueschool.s3.amazonaws.com/07e696bc3ed3884dd88d82db76e69d89/vuex-for-everyone.jpeg)](http://andrestraube.com.br)
 
 ## Build Setup
 
 ``` bash
 # clone this repo
-http://...
+https://github.com/astraube/JetJedi_vuejs
 
 # install dependencies
 npm install
