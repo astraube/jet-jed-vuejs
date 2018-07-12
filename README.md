@@ -1,13 +1,18 @@
-# jetjedi
+# MVP JetJedi Andre Straube
 
-> MVP JetJedi Andre Straube
+> VueJS,
+> VueRouter,
+> Vuex,
+> VueEcharts,
+> vue-data-tables
+> Moment.js,
+> axios,
+> element-ui,
+> moment,
 
-> Components Prodruction
 
-> VueJS
-> VueRouter
-> Moment.js
-
+## Screens
+[![](https://vueschool.s3.amazonaws.com/07e696bc3ed3884dd88d82db76e69d89/vuex-for-everyone.jpeg)](https://vueschool.io/courses/vuex-for-everyone)
 
 ## Build Setup
 
