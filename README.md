@@ -12,7 +12,9 @@
 
 
 ## Screens
-[![](https://vueschool.s3.amazonaws.com/07e696bc3ed3884dd88d82db76e69d89/vuex-for-everyone.jpeg)](http://andrestraube.com.br)
+[![](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen1.jpg)](http://andrestraube.com.br)
+#
+[![](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen2.jpg)](http://andrestraube.com.br)
 
 ## Build Setup
 
