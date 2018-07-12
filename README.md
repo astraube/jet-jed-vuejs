@@ -20,7 +20,8 @@
 
 ``` bash
 # clone this repo
-https://github.com/astraube/JetJedi_vuejs
+
+# cd JetJedi_vuejs
 
 # install dependencies
 npm install
