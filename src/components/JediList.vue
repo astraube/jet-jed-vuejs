@@ -2,24 +2,26 @@
     <div>
         <el-card class="box-card" style="margin-top: 10px;">
             <div style="margin-bottom: 10px; text-align: left;">
-                <el-row>
-                    <el-col :span="18">
+                <div class="row">
+                    <div class="col-sm-6">
                         <el-button @click="dialogJediVisible = true" type="info">Novo Jedi</el-button>
                         <el-button @click="bulkDelete" type="danger" v-if="multipleSelection.length > 0">Remover Selecionados</el-button>
+                    </div>
 
+                    <div class="col-sm-2">
                         <el-select v-model="filteredData[1].value" placeholder="Status" multiple="multiple">
                             <el-option v-for="(item, index) in jedisStatus" :label="item" :key="index" :value="index"></el-option>
                         </el-select>
-
+                    </div>
+                    <div class="col-sm-2">
                         <el-select v-model="filteredData[2].value" placeholder="Planetas" multiple="multiple">
                             <el-option v-for="(item, index) in planets" :label="item" :key="index" :value="index"></el-option>
                         </el-select>
-                    </el-col>
-
-                    <el-col :span="6">
-                        <el-input placeholder="Filtrar" v-model="filteredData[0].value"></el-input>
-                    </el-col>
-                </el-row>
+                    </div>
+                    <div class="col-sm-2">
+                        <el-input placeholder="Buscar" v-model="filteredData[0].value"></el-input>
+                    </div>
+                </div>
             </div>
 
             <data-tables
