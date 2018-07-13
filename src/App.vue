@@ -13,16 +13,21 @@
     </div>
 
     <div class="container">
-      <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+      <el-menu :default-active="activeIndex"  mode="horizontal" @select="handleSelect">
         <el-menu-item index="/">
-          <router-link :to="{ name: 'Dashboard'}">Dashboard</router-link>
+          Dashboard
         </el-menu-item>
         <el-menu-item index="/jedis">
-          <router-link :to="{ name: 'JediList'}">Jedis</router-link>
+          JedisJedis
         </el-menu-item>
       </el-menu>
 
-      <router-view/>
+      <transition>
+        <keep-alive>
+          <router-view/>
+        </keep-alive>
+      </transition>
+
 
     </div>
 
@@ -41,8 +46,9 @@ export default {
         this.activeIndex = this.$route.path
     },
     methods: {
-        handleSelect(key, keyPath) {
+        handleSelect(key) {
             this.activeIndex = key
+            this.$router.replace(key)
         }
     }
 }

@@ -12,9 +12,9 @@
 
 
 ## Screens
-[![](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen1.jpg)](http://andrestraube.com.br)
+[![](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen1.jpg)](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen1.jpg)
 #
-[![](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen2.jpg)](http://andrestraube.com.br)
+[![](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen2.jpg)](https://raw.githubusercontent.com/astraube/JetJedi_vuejs/master/static/screen2.jpg)
 
 ## Build Setup
 
@@ -28,7 +28,12 @@ cd JetJedi_vuejs
 npm install
 
 # serve with hot reload at localhost:8080
+# for development
 npm run dev
+
+# serve with hot reload at localhost:8080
+# for for production with minification
+npm run start
 
 # build for production with minification
 npm run build
