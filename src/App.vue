@@ -61,6 +61,36 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+@media (max-width: 980px) {
+  figure .echarts {
+    width: 100%;
+    height: 75vw;
+  }
+}
+figure .echarts {
+  width: 100%;
+  height: 300px;
+}
+.echarts {
+  width: 600px;
+  height: 400px;
+}
+@media (max-width: 980px) {
+  figure {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+figure {
+  display: inline-block;
+  margin: 0;
+  width: 40vw;
+}
+
 .jumbotron {
   z-index: 2;
   position: relative;
