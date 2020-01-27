@@ -3,7 +3,7 @@
 
     <div class="jumbotron header">
       <div class="col-md-2">
-        <img border="0" class="img-responsive center-block" alt="Straube Jedi" src="http://straucorp.com/images/logos/straucorp_logo.svg" width="100">
+        <img border="0" class="img-responsive center-block" alt="Straube Jedi" src="static/images/straucorp_logo.svg" width="100">
       </div>
       <div class="col-md-10 text-left">
         <h3>

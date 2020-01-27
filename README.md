@@ -40,7 +40,19 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+```
 
+# To deploy in github pages
+[install push-dir](https://github.com/L33T-KR3W/push-dir)
+```
+npm run build
+git add .
+git commit -m "deploy GH"
+git push -f origin gh-pages
+npm run deploy
+```
+
+```
 # run unit tests
 npm run unit
 
