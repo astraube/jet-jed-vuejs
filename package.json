@@ -16,7 +16,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.4.3",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "vue": "^2.5.2",
     "vue-data-tables": "^3.4.2",
     "vue-echarts": "^3.0.9",
